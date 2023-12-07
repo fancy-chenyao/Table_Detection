@@ -634,8 +634,8 @@ class table_check(object):
     def table_detection_test(self, img):
         self.img = img
         if img.shape[0] < img.shape[1]:
-            self.new_width = 800
-            self.new_height = 600
+            self.new_width = 2400
+            self.new_height = 1800
         MIN_H = 10
         MIN_W = 50
         MAX_H = int(img.shape[0] / 2)
